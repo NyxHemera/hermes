@@ -1,0 +1,7 @@
+@import "../styles/typography.scss";
+
+.paragraph {
+    &__content {
+        color: $font-dark;
+    }
+}

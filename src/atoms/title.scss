@@ -1,0 +1,7 @@
+@import "../styles/typography.scss";
+
+.title {
+    &__content {
+        color: $font-dark;
+    }
+}
