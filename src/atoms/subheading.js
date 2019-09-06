@@ -1,16 +1,16 @@
 import React from 'react';
-import './subtitle.scss';
+import './subheading.scss';
 
-const Subtitle = props => {
+const Subheading = props => {
     const { children } = props;
 
     return (
         <h4
-            className="subtitle__content"
+            className="subheading__content"
         >
             { children }
         </h4>
     );
 }
 
-export default Subtitle;
+export default Subheading;

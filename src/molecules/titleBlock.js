@@ -1,15 +1,15 @@
 import React from 'react';
 import './titleBlock.scss';
-import Title from '../atoms/title';
-import Subtitle from '../atoms/subtitle';
+import Heading from '../atoms/heading';
+import SubHeading from '../atoms/subheading';
 
 const TitleBlock = props => {
     const { title, subtitle } = props;
 
     return (
         <div className="titleBlock__container">
-            <Title>{ title }</Title>
-            <Subtitle>{ subtitle }</Subtitle>
+            <Heading>{ title }</Heading>
+            <SubHeading>{ subtitle }</SubHeading>
         </div>
     );
 }

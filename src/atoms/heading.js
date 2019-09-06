@@ -1,16 +1,16 @@
 import React from 'react';
-import './title.scss';
+import './heading.scss';
 
-const Title = props => {
+const Heading = props => {
     const { children } = props;
 
     return (
         <h1
-            className="title__content"
+            className="heading__content"
         >
             { children }
         </h1>
     );
 }
 
-export default Title;
+export default Heading;

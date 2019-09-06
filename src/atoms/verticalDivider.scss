@@ -1,0 +1,13 @@
+.verticalDivider {
+    &__block {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__content {
+        border: solid black .1rem;
+        border-radius: 5px;
+        height: 75%;
+    }
+}

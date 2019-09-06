@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Title from './atoms/title';
+import Heading from './atoms/heading';
 
 const App = () => {
   return (
     <div className="App">
-      <Title>
+      <Heading>
         Hi There!
-      </Title>
+      </Heading>
     </div>
   );
 }

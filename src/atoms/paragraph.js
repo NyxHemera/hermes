@@ -5,11 +5,11 @@ const Paragraph = props => {
     const { children } = props;
 
     return (
-        <h4
+        <p
             className="paragraph__content"
         >
             { children }
-        </h4>
+        </p>
     );
 }
 
