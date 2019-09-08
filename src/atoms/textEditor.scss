@@ -1,0 +1,19 @@
+.textEditor {
+    &__block {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__editor {
+        width: 100%;
+        height: calc(100% - 6rem);
+        overflow-y: scroll;
+        margin: 3rem 0;
+        font-size: 1.5rem;
+        outline: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
