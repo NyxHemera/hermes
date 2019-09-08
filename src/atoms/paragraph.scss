@@ -3,5 +3,8 @@
 .paragraph {
     &__content {
         color: $font-dark;
+        font-family: $font-body;
+        font-size: 1.1rem;
+        font-weight: 400;
     }
 }

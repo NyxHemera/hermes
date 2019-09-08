@@ -6,7 +6,7 @@ const Heading = props => {
 
     return (
         <h1
-            className="heading__content"
+            className="heading heading__content"
         >
             { children }
         </h1>
