@@ -1,0 +1,14 @@
+.navbar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .link__container {
+        &:not(:first-of-type) {
+            margin-left: .5rem;
+        }
+        &:not(:last-of-type) {
+            margin-right: .5rem;
+        }
+    }
+}

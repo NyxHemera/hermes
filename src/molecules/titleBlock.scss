@@ -9,5 +9,9 @@
 
     > .subheading {
         margin: 0 0 0 1rem;
+
+        &__content {
+            margin: 1rem;
+        }
     }
 }

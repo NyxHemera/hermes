@@ -1,0 +1,21 @@
+@import "../styles/typography.scss";
+
+.link__container {
+    text-decoration: none;
+    
+    .heading {
+        transition: all ease .15s;
+
+        &:hover {
+            color: $font-accent-blue;
+        }
+    }
+
+    .subheading {
+        transition: all ease .15s;
+
+        &:hover {
+            color: $font-accent-blue;
+        }
+    }
+}
