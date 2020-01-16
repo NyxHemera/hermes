@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import EditPage from './organisms/editPage';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import './styles/global.scss';
@@ -11,7 +10,6 @@ const routing = (
     <Router>
       <div>
         <Route exact path="/" component={App} />
-        <Route path="/edit" component={EditPage} />
       </div>
     </Router>
 );
